@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ssai-manipolution'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'SSAI manipolution for iOS project'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/phamngochai123/ssai-manipolution'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "TDM" => "multimediathudojsc@gmail.com" }
-  s.source           = { :git => 'https://github.com/phamngochai123/ssai-manipolution.git', :tag => "#{spec.version}"}
+  s.source           = { :git => 'https://github.com/phamngochai123/ssai-manipolution.git', :tag => "#{s.version}"}
 
   s.ios.deployment_target = '11.0'
   s.source_files = 'include/*.h'
